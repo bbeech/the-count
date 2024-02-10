@@ -18,17 +18,19 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 1)),
+    url("/src/assets/the\ count001.jpg"); */
 }
 
 h1 {
-  font-size: 8em;
+  font-size: 9em;
 }
 
 button {
   border-radius: 20%;
   border: 1px solid transparent;
   padding: 1em 1.5em;
-  margin: .25em;
+  margin: 0.25em;
   font-size: 2em;
   font-weight: 500;
   font-family: inherit;

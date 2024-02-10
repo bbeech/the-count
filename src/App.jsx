@@ -9,9 +9,12 @@ function App() {
       <div>
         <h1>{count}</h1>
       </div>
-      <div className="card">
+      <div>
         <button onClick={() => setCount((count) => count + 1)}>+</button>
         <button onClick={() => setCount((count) => count - 1)}>-</button>
+      </div>
+      <div>
+      <button onClick={() => setCount((count) => count = 0)}>Reset</button>
       </div>
     </>
   );
